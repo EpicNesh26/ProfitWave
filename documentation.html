@@ -7,15 +7,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-inter bg-gray-100 text-gray-800">
+<body class="font-inter bg-gray-100 text-gray-800 ">
 
-    <header class="bg-[#22223b] text-white py-6 text-center text-2xl">
-        ProfitWave Documentation
+    <header class="bg-[#22223b] text-white py-1 text-center text-lg font-inter font-bold">
+        Documentation
     </header>
 
-    <nav class="bg-[#e6cdbf] py-4 flex justify-between items-center px-8">
-        <div class="logo text-xl font-bold text-[#4a4e69]">
-            <a href="index.html">ProfitWave</a>
+    <nav class="bg-[#e6cdbf] py-2 flex justify-between items-center px-8">
+        <div class="logo flex gap-2 text-black font-inter font-bold">
+            <a class="flex gap-1" href="index.html">
+
+                <img src="Images/target.png" alt="" class="colored-icon">
+                ProfitWave
+            </a>
         </div>
         <div class="nav-links flex space-x-6 text-[#4a4e69] font-semibold">
             <a href="#" class="hover:underline">Home</a>
@@ -26,7 +30,7 @@
     </nav>
 
     <div class="container max-w-4xl mx-auto p-8 mt-10 bg-white rounded-lg shadow-lg">
-        <h1 class="text-3xl font-extrabold mb-6">Getting Started with ProfitWave</h1>
+        <h1 class="text-2xl font-extrabold mb-2">Getting Started with ProfitWave</h1>
         <p class="mb-6">Welcome to the ProfitWave documentation. This guide will help you set up and use the various features of our platform.</p>
 
         <h2 class="text-2xl font-bold mb-4 text-[#4a4e69]">Installation</h2>
@@ -45,11 +49,57 @@
         <h2 class="text-2xl font-bold mb-4 text-[#4a4e69]">How to Use</h2>
         <p class="mb-6">Once you're set up, navigate through the dashboard to access the different tools. Each tool comes with a tutorial to help you maximize its potential.</p>
 
-        <h2 class="text-2xl font-bold mb-4 text-[#4a4e69]">Support</h2>
-        <p>If you encounter any issues, our support team is available 24/7. Visit the <a href="#" class="text-[#4a4e69] hover:underline">Support Page</a> or contact us at <a href="mailto:support@profitwave.com" class="text-[#4a4e69] hover:underline">support@profitwave.com</a>.</p>
+        
+
+        <section id="usage" class="mb-10">
+            <h2 class="text-2xl font-bold mb-4 text-[#4a4e69]">Usage</h2>
+            <p class="text-gray-700 mb-4">Once ProfitWave is installed and running, you can start leveraging its powerful features:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Access the dashboard to view real-time analytics and insights.</li>
+                <li>Use the automation tools to optimize business processes.</li>
+                <li>Customize the interface to suit your specific needs.</li>
+                <li>Integrate with third-party tools for enhanced functionality.</li>
+                <li>Refer to the user guide for detailed instructions on each feature.</li>
+            </ul>
+        </section>
+
+        <section id="faq" class="mb-10">
+            <h2 class="text-2xl font-bold mb-4 text-[#4a4e69]">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="font-semibold">Q: What systems does ProfitWave support?</h3>
+                    <p class="text-gray-700">A: ProfitWave is compatible with most modern operating systems, including Windows, macOS, and Linux.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold">Q: How does ProfitWave ensure data security?</h3>
+                    <p class="text-gray-700">A: We use advanced encryption protocols and secure cloud infrastructure to protect your data at all times.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold">Q: Can I integrate ProfitWave with my existing CRM?</h3>
+                    <p class="text-gray-700">A: Yes, ProfitWave offers seamless integration with popular CRM platforms like Salesforce, HubSpot, and Zoho.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="mb-10">
+            <h2 class="text-2xl font-bold mb-4 text-[#4a4e69]">Support</h2>
+            <p class="text-gray-700 mb-4">If you encounter any issues or have any questions, our support team is here to help:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Email: <a href="mailto:support@profitwave.com" class="text-blue-500 hover:underline">support@profitwave.com</a></li>
+                <li>Phone: +1 (555) 000-0000</li>
+                <li>Live Chat: Available 24/7 on our website</li>
+                <li>Community Forums: Join the discussion with other users</li>
+                <li>Knowledge Base: Access tutorials and troubleshooting guides</li>
+            </ul>
+        </section>
     </div>
 
-    <footer class="bg-[#22223b] text-white py-4 text-center mt-10">
+
+    
+
+    
+
+    <footer class="bg-[#22223b] text-white py-1 text-center mt-10">
         &copy; 2024 ProfitWave. All rights reserved.
     </footer>
 
