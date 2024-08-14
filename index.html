@@ -19,11 +19,14 @@
 
 
     <div class="container h-[600px]">
-        <header class="text-[11px] font-inter font-medium bg-[#22223b] text-white h-7 flex justify-center items-center">
+        <!-- <header class="text-[11px] font-inter font-medium bg-[#22223b] text-white h-7 flex justify-center items-center ">
+            "🌊 Ride the Wave of Success with ProfitWave: 🚀 AI-Powered Growth for Your Business"
+        </header> -->
+        <header class="fixed top-0 left-0 w-full text-[11px] font-inter font-medium bg-[#22223b] text-white h-7 flex justify-center items-center z-50">
             "🌊 Ride the Wave of Success with ProfitWave: 🚀 AI-Powered Growth for Your Business"
         </header>
         <nav
-            class="flex justify-between w-[95%] m-auto bg-[#f2e9e4] my-2 h-14 items-center p-8 py-9 rounded-lg  shadow-lg">
+            class="flex justify-between w-[95%] m-auto bg-[#f2e9e4] my-2 h-14 items-center p-8 py-9 rounded-lg mt-10  shadow-lg">
             <div class="logo flex gap-2 text-black font-inter font-bold">
                 <!-- text-[#4a4e69]  -->
                 <img src="Images/target.png" alt="" class="colored-icon">
@@ -48,7 +51,7 @@
 
 
 
-        <div class="main flex flex-col items-center justify-center w-[70%] m-auto p-8 rounded-lg h-[600px] ">
+        <div class="main flex flex-col items-center justify-center w-[70%] m-auto p-8 rounded-lg h-[600px] pt-[100px] ">
             <div class="headline text-4xl font-inter font-extrabold text-center mb-4 text-[#333]">
                 One Smart AI Solution for Your Business
             </div>
@@ -62,13 +65,19 @@
                 </button>
                 <button
                     class="border border-[#e6cdbf] text-[#4a4e69] font-semibold py-2 px-6 rounded-xl transition-transform transform hover:scale-105 hover:bg-[#e6cdbf] hover:text-white">
-                    Read Documentation
+                    <a href="documentation.html">
+
+                        Read Documentation
+                    </a>
                 </button>
             </div>
-            <div class="image flex mt-14">
-                <img class="h-52" src="Images/flat-artificial-intelligence-background.png" alt="">
-                <img class="h-52" src="Images/template-artificial-intelligence-landing-page.png" alt="">
+            
+
+            <div class="how-it-works text-center  text-[#666] mt-28">
+                <p class="text-4xl font-inter font-extrabold text-center text-[#4a4e69] mb-4">How It Works</p>
+                <p class="subtitle text-[16px] font-inter font-medium text-center mb-6 w-[880px] text-[#555]">Our AI solution leverages advanced algorithms to analyze data and automate processes. It integrates seamlessly with your existing systems, offering real-time insights and actionable recommendations to enhance your business operations.</p>
             </div>
+            
         </div>
 
 
@@ -91,11 +100,7 @@
             </div>
         </div>
 
-        <!-- <div class="choose">
-            <div class="title">
-                Why Choose PrintWave?
-            </div>
-        </div> -->
+
 
         <section class="solutions mt-7 py-16 bg-white">
             <div class="container w-[80%] mx-auto px-8">
@@ -340,35 +345,7 @@
                     how we can help.</div>
             </div>
 
-            <!-- <div class="options">
-                <div class="thatcontainer flex gap-10 mx-auto w-[90%] justify-center h-[200px]">
-                    <div class="option1 font-inter border border-[#9A8C98] rounded-xl flex  flex-col w-[20%]">
-                        <div class="icon w-4 h-4 relative"><img src="Images/messenger-removebg-preview.png" alt=""></div>
-                        <div class="title relative bottom-0">Chat to sales</div>
-                        <div class="subtitle">Speak to our friendly team.</div>
-                        <div class="link">profitwave@dui.com</div>
-                    </div>
-                    <div class="option1 font-inter border border-[#9A8C98] rounded-xl flex  flex-col w-[20%]">
-                        <div class="icon w-4 h-4"><img src="Images/messenger-removebg-preview.png" alt=""></div>
-                        <div class="title">Chat to sales</div>
-                        <div class="subtitle">Speak to our friendly team.</div>
-                        <div class="link">profitwave@dui.com</div>
-                    </div>
-                    <div class="option1 font-inter border border-[#9A8C98] rounded-xl flex  flex-col w-[20%]">
-                        <div class="icon w-4 h-4"><img src="Images/messenger-removebg-preview.png" alt=""></div>
-                        <div class="title">Chat to sales</div>
-                        <div class="subtitle">Speak to our friendly team.</div>
-                        <div class="link">profitwave@dui.com</div>
-                    </div>
-                    <div class="option1 font-inter border border-[#9A8C98] rounded-xl flex  flex-col w-[20%]">
-                        <div class="icon w-4 h-4"><img src="Images/messenger-removebg-preview.png" alt=""></div>
-                        <div class="title">Chat to sales</div>
-                        <div class="subtitle">Speak to our friendly team.</div>
-                        <div class="link">profitwave@dui.com</div>
-                    </div>
-                    
-                </div>
-            </div> -->
+
 
             <div class="options">
                 <div class="thatcontainer flex gap-6 mx-auto w-[90%] justify-center h-[200px]">
@@ -431,79 +408,7 @@
         </section>
 
 
-        <!-- <footer>
-            <div class="text mt-10 bg-[#f2e9e4] p-10 font-inter relative">
-                <div class="writing flex flex-col">
-                    <p class="font-bold text-xl pb-2 pl-10">Sign up to our newsletter</p>
-                    <p class="text-base pl-10">Stay up to date with the latest news, announcements, and articles.</p>
-                </div>
 
-                <div class="form absolute right-24 top-10">
-                    <input class="p-1 mx-2 font-inter rounded-lg px-2 text-black border-[0.5px] border-black"
-                        type="text" placeholder="Enter your email here.">
-                    <button class="p-1 bg-black text-white rounded-lg px-2">Subscribe</button>
-                </div>
-                <div class="links grid text-sm grid-cols-5 gap-4 mx-10 mt-10">
-                    <div class="footer-section w-[10%]">
-                        <p class="font-bold text-base">Company</p>
-                        <ul>
-                            <li class="w-full"><a class="cursor-pointer hover:underline" href="#">About Us</a></li>
-                            <li class="w-full"><a href="#">Careers</a></li>
-                            <li class="w-full"><a href="#">Press</a></li>
-                            <li class="w-full"><a href="#">Investor Relations</a></li>
-                            <li class="w-full"><a href="#">Sustainability</a></li>
-                        </ul>
-                    </div>
-        
-                    <div class="footer-section">
-                        <p class="font-bold text-base">Resources</p>
-                        <ul>
-                            <li class="w-full"><a class="cursor-pointer hover:underline" href="#">Blog</a></li>
-                            <li class="w-full"><a href="#">Guides</a></li>
-                            <li class="w-full"><a href="#">Help Center</a></li>
-                            <li class="w-full"><a href="#">Developer API</a></li>
-                            <li class="w-full"><a href="#">Community</a></li>
-                        </ul>
-                    </div>
-        
-                    <div class="footer-section">
-                        <p class="font-bold text-base">Support</p>
-                        <ul>
-                            <li class="w-full"><a class="cursor-pointer hover:underline" href="#">Contact Us</a></li>
-                            <li class="w-full"><a href="#">FAQs</a></li>
-                            <li class="w-full"><a href="#">Terms & Conditions</a></li>
-                            <li class="w-full"><a href="#">Privacy Policy</a></li>
-                            <li class="w-full"><a href="#">Accessibility</a></li>
-                        </ul>
-                    </div>
-        
-                    <div class="footer-section">
-                        <p class="font-bold text-base">Follow Us</p>
-                        <ul>
-                            <li class="w-full"><a class="cursor-pointer hover:underline" href="#">Twitter</a></li>
-                            <li class="w-full"><a href="#">LinkedIn</a></li>
-                            <li class="w-full"><a href="#">Facebook</a></li>
-                            <li class="w-full"><a href="#">Instagram</a></li>
-                            <li class="w-full"><a href="#">YouTube</a></li>
-                        </ul>
-                    </div>
-        
-                    <div class="footer-section">
-                        <p class="font-bold text-base">Products</p>
-                        <ul>
-                            <li class="w-full"><a class="cursor-pointer hover:underline" href="#"> Analytics Suite</a></li>
-                            <li class="w-full"><a href="#"> Marketing Automation</a></li>
-                            <li class="w-full"><a href="#"> CRM Integration</a></li>
-                            <li class="w-full"><a href="#"> Data Visualization</a></li>
-                            <li class="w-full"><a href="#"> Customer Insights</a></li>
-                        </ul>
-                    </div>
-        
-                    
-                </div>
-            </div>
-    </div>
-    </footer> -->
 
     <footer>
         <div class="text mt-20 bg-[#f2e9e4] p-10 font-inter relative">
