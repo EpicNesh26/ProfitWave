@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plans</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .plan-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .plan-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+        .button {
+            background-color: #e6cdbf;
+            color: #4a4e69;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button:hover {
+            background-color: #4a4e69;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-[#4A4E69] font-inter">
+
+    <div class="container mx-auto py-12 w-[90%]">
+        <h1 class="text-4xl font-extrabold text-center mb-12 text-[#9A8C98]">Choose Your Plan</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Plan 1 -->
+            <div class="plan-card">
+                <h2 class="text-xl font-bold mb-4">Basic Plan</h2>
+                <p class="text-sm mb-6">Ideal for individuals starting out.</p>
+                <ul class="mb-6 space-y-2">
+                    <li>✔️ 10 Analytics Reports</li>
+                    <li>✔️ Basic Support</li>
+                    <li>✔️ Email Notifications</li>
+                </ul>
+                <div class="text-center">
+                    <p class="text-lg font-bold mb-4">$19/month</p>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Plan 2 -->
+            <div class="plan-card">
+                <h2 class="text-xl font-bold mb-4">Standard Plan</h2>
+                <p class="text-sm mb-6">For small businesses needing extra features.</p>
+                <ul class="mb-6 space-y-2">
+                    <li>✔️ 50 Analytics Reports</li>
+                    <li>✔️ Priority Support</li>
+                    <li>✔️ SMS & Email Notifications</li>
+                    <li>✔️ Basic Integrations</li>
+                </ul>
+                <div class="text-center">
+                    <p class="text-lg font-bold mb-4">$49/month</p>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Plan 3 -->
+            <div class="plan-card">
+                <h2 class="text-xl font-bold mb-4">Pro Plan</h2>
+                <p class="text-sm mb-6">Advanced plan for growing businesses.</p>
+                <ul class="mb-6 space-y-2">
+                    <li>✔️ Unlimited Analytics Reports</li>
+                    <li>✔️ 24/7 Support</li>
+                    <li>✔️ Advanced Integrations</li>
+                    <li>✔️ Custom Dashboards</li>
+                </ul>
+                <div class="text-center">
+                    <p class="text-lg font-bold mb-4">$99/month</p>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Plan 4 -->
+            <div class="plan-card">
+                <h2 class="text-xl font-bold mb-4">Enterprise Plan</h2>
+                <p class="text-sm mb-6">Customized solutions for large enterprises.</p>
+                <ul class="mb-6 space-y-2">
+                    <li>✔️ Unlimited Analytics Reports</li>
+                    <li>✔️ Dedicated Account Manager</li>
+                    <li>✔️ Custom Integrations</li>
+                    <li>✔️ White-labeling</li>
+                </ul>
+                <div class="text-center">
+                    <p class="text-lg font-bold mb-4">Contact Us for Pricing</p>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Plan 5 -->
+            <div class="plan-card">
+                <h2 class="text-xl font-bold mb-4">Startup Plan</h2>
+                <p class="text-sm mb-6">Perfect for startups with essential needs.</p>
+                <ul class="mb-6 space-y-2">
+                    <li>✔️ 20 Analytics Reports</li>
+                    <li>✔️ Standard Support</li>
+                    <li>✔️ Basic Integrations</li>
+                    <li>✔️ Monthly Updates</li>
+                </ul>
+                <div class="text-center">
+                    <p class="text-lg font-bold mb-4">$29/month</p>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Plan 6 -->
+            <div class="plan-card">
+                <h2 class="text-xl font-bold mb-4">Growth Plan</h2>
+                <p class="text-sm mb-6">For businesses focused on rapid growth.</p>
+                <ul class="mb-6 space-y-2">
+                    <li>✔️ 75 Analytics Reports</li>
+                    <li>✔️ 24/7 Support</li>
+                    <li>✔️ Advanced Integrations</li>
+                    <li>✔️ Custom Reports</li>
+                </ul>
+                <div class="text-center">
+                    <p class="text-lg font-bold mb-4">$79/month</p>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Plan 7 -->
+            <div class="plan-card">
+                <h2 class="text-xl font-bold mb-4">Professional Plan</h2>
+                <p class="text-sm mb-6">For professionals needing extensive features.</p>
+                <ul class="mb-6 space-y-2">
+                    <li>✔️ Unlimited Reports</li>
+                    <li>✔️ Dedicated Support</li>
+                    <li>✔️ Comprehensive Integrations</li>
+                    <li>✔️ Advanced Analytics</li>
+                </ul>
+                <div class="text-center">
+                    <p class="text-lg font-bold mb-4">$149/month</p>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Plan 8 -->
+            <div class="plan-card">
+                <h2 class="text-xl font-bold mb-4">Custom Plan</h2>
+                <p class="text-sm mb-6">Tailored solutions for unique business needs.</p>
+                <ul class="mb-6 space-y-2">
+                    <li>✔️ Custom Features</li>
+                    <li>✔️ Personalized Support</li>
+                    <li>✔️ Flexible Integrations</li>
+                    <li>✔️ Dedicated Account Management</li>
+                </ul>
+                <div class="text-center">
+                    <p class="text-lg font-bold mb-4">Contact Us for Pricing</p>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
