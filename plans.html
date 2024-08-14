@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plans</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/main.css">
     <style>
         .plan-card {
             background-color: #ffffff;
@@ -13,10 +15,12 @@
             padding: 24px;
             transition: transform 0.3s, box-shadow 0.3s;
         }
+
         .plan-card:hover {
             transform: scale(1.05);
             box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
         }
+
         .button {
             background-color: #e6cdbf;
             color: #4a4e69;
@@ -25,17 +29,44 @@
             font-weight: 600;
             transition: background-color 0.3s, color 0.3s;
         }
+
         .button:hover {
             background-color: #4a4e69;
             color: #ffffff;
         }
     </style>
 </head>
-<body class="bg-gray-50 text-[#4A4E69] font-inter">
 
-    <div class="container mx-auto py-12 w-[90%]">
-        <h1 class="text-4xl font-extrabold text-center mb-12 text-[#9A8C98]">Choose Your Plan</h1>
-        
+<body class=" font-inter">
+
+    <div class="container mx-auto w-[90%] h-[600px]">
+        <header class="fixed top-0 left-0 w-full text-[11px] font-inter font-medium bg-[#22223b] text-white h-7 flex justify-center items-center z-50">
+            "🌊 Ride the Wave of Success with ProfitWave: 🚀 AI-Powered Growth for Your Business"
+        </header>
+        <nav
+            class="flex  justify-between w-[95%] m-auto bg-[#f2e9e4] my-2 h-14 items-center p-8 py-9 rounded-lg mt-10  shadow-lg">
+            <div class="logo flex gap-2 text-black font-inter font-bold">
+                <!-- text-[#4a4e69]  -->
+                <img src="Images/target.png" alt="" class="colored-icon">
+                ProfitWave
+            </div>
+
+            <ul class="flex gap-10 font-inter font-bold text-sm">
+                <li class="font-bold text-sm cursor-pointer"> <a href="index.html">Home</li></a>
+                    <li class="font-bold text-sm cursor-pointer "><a href="features.html">Features</li></a>
+                    <li class="font-bold text-sm cursor-pointer underline"><a href="plans.html">Pricing</li></a>
+                    <li class="font-bold text-sm cursor-pointer"><a href="contact.html">Contact</li></a>
+            </ul>
+            <div class="buttons flex gap-3 font-inter ">
+                <button
+                    class="p-2  w-20 rounded-xl border border-[#d5bdaf] font-bold text-sm hover:bg-[#e6cdbf] hover:border-[#e6cdbf]">Login</button>
+                <button
+                    class="p-2 bg-[#e6cdbf] w-20 rounded-xl border font-bold text-sm hover:bg-[#f2e9e4] hover:border-[#d5bdaf]">Sign
+                    Up </button>
+            </div>
+        </nav>
+        <h1 class="text-4xl font-extrabold text-center mb-12 mt-10 text-[#9A8C98]">Choose Your Plan</h1>
+
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Plan 1 -->
             <div class="plan-card">
@@ -167,4 +198,5 @@
     </div>
 
 </body>
+
 </html>
